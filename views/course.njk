@@ -1,0 +1,23 @@
+{%extends "layout.njk"%}
+
+{%set pageId = "course"%}
+
+{%block title%}
+    <title>{{item.name}}</title>
+{%endblock title%}
+{%block links%}
+    <link rel="stylesheet" href="/styles/coursepage.css">
+    <link rel="stylesheet" href="/styles/header.css">
+{%endblock links%}
+
+{%block header%}{%endblock header%}
+{% block content %}
+        <section class="cards">
+         <div class="title">
+          <img src="{{item.image}}" alt="Imagem de {{item.name}}">
+       </div>
+        <div class="card" id="{{item.id}}">
+            <iframe src="https://www.rocketseat.com.br/{{item.id}}" frameborder="0"></iframe>
+          
+        </div>
+{% endblock content%}

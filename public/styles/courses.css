@@ -1,0 +1,68 @@
+body {
+    background-color: #252324;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.cards {
+    display: flex;
+    border-radius: 15px;
+    height: 50%;
+    padding: 10%;
+}
+
+.card {
+    background: #1b1a1a;
+    height: auto;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 5%;
+    text-align: center;
+    border: solid #f89008a8;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-right: 2vw;
+}
+
+.modules {
+    width: 8vw;
+    height: 4vh;
+    border-radius: 10px;
+}
+
+.modules p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: underline solid #f0ac18;
+}
+
+.money {
+    background: #4e0580;
+    height: auto;
+    width: 5vw;
+    border-radius: 10px;
+}
+
+.money p {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.card:hover {
+    -webkit-box-shadow: 7px 11px 28px 5px rgba(39, 46, 40, 0.75);
+    -moz-box-shadow: 7px 11px 28px 5px rgba(39, 46, 40, 0.75);
+    box-shadow: 7px 11px 28px 5px rgba(43, 47, 44, 0.75);
+    border-radius: 10px;
+    border: #f89008;
+    background: #2e0655;
+    height: 100%;
+}

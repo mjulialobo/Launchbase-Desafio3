@@ -1,13 +1,10 @@
 body {
-    background-image: linear-gradient(to right top, #252324, #2e1f29, #331b32, #33173d, #2e164b, #2e1757, #2c1964, #261b72, #371b7f, #4a198b, #5d1297, #7103a1);
-    background-position: cover;
-    background-repeat: no-repeat;
+    background-color: #252324;
     font-family: 'Roboto', sans-serif;
     color: white;
-    font-size: 20px;
     margin: 0;
     height: 100vh;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .content {
@@ -21,13 +18,13 @@ body {
     font-size: 32px;
     color: white;
     text-align: center;
-    text-decoration: underline solid #dea5ff;
+    text-decoration: underline solid #dd831c;
 }
 
 .photo {
-    width: 15%;
+    width: 10%;
     margin-bottom: 10px;
-    border: #dea5ff solid 10px;
+    border: #dd831c solid 10px;
     border-radius: 50%;
     align-items: center;
 }
@@ -48,5 +45,5 @@ body {
 
 .content a:hover {
     transition: 200ms;
-    color: #701c99;
+    color: #dd831c;
 }

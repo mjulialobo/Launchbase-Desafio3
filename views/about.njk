@@ -1,27 +1,21 @@
-<!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
+{%extends "layout.njk"%}
+{%set pageId = "about"%}
+
+{%block title%}
     <title>About Rocketseat</title>
+{%endblock title%}
+
+{%block links%}
     <link rel="icon" href="public/assets/favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="public/styles/about.css">
-    <link rel="stylesheet" href="public/styles/header.css">
+    <link rel="stylesheet" href="/styles/about.css">
+    <link rel="stylesheet" href="/styles/header.css">
     <script src="https://kit.fontawesome.com/bcd7f656b1.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <header>
-        <a href="https://rocketseat.com.br" target="_blank">
-            <img src="public/assets/logo.png" alt="logomarca"></a>
-        <span>
-            <a href="index.html">Home</a>
-            <a href="content.html">
-                Courses</a>
-            <a href="https://discordapp.com/invite/gCRAFh" target="_blank">Comunity</a>
-            <a href="mailto: oi@rocketseat.com.br" target="_blank">Email</a>
-            <a href="tel:+5547992078767" target="_blank">Phone</a>
-        </span>
-    </header>
+{% endblock links %}
+
+{%block header%}{%endblock header%}
+{% block content %}
     <div class="content">
-        <img class="photo" alt="Launchbase" src="public/assets/logo2.png">
+        <img class="photo" alt="Launchbase" src="/assets/logo2.png">
         <h2>About Rocketseat
         </h2>
         <p>
@@ -55,6 +49,6 @@
                 <i class="fab fa-instagram"></i>
             </a>
 
-        </div>
-    </body>
-</html>
+    </div>
+
+{%endblock content%}

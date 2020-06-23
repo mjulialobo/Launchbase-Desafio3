@@ -1,0 +1,32 @@
+body {
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #252324;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title img {
+    width: 6%;
+    margin-right: 5vw;
+}
+
+iframe {
+    margin: 0 auto;
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    background-color: white;
+}
+
+@media (max-height: 625px) {
+    iframe {
+        width: 70vw;
+        height: 60vh;
+    }
+}
