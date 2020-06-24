@@ -36,7 +36,7 @@ $ npm start
  <h2><img src="https://static.thenounproject.com/png/25759-200.png"width="50px" height="50px" align="center"/> Results</h2>
  <h3> Courses page </h3>
  <img src="https://user-images.githubusercontent.com/65983895/85353621-0c94b380-b4df-11ea-9d68-980cf364aaf5.PNG"/>
- <h3> *GIF does not represent real colors </h3>
+ <h3> Note: gif distorts images and colors </h3>
   <img src="https://user-images.githubusercontent.com/65983895/85353633-174f4880-b4df-11ea-9053-b30cc03585d9.gif"/>
   
   <h3> 404 Page not found </h3>
