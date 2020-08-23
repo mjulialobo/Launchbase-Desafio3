@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  Challenge 2: Rocketseat Website
+  Challenge 3: Rocketseat Website
 </h3>
  <p align="center"> applications developed during Rocketseat's Launchbase bootcamp </P>  
 <h2> <img src= "https://img.icons8.com/plasticine/2x/rocket.png" width="50px" height="50px" align="center"/> What we created? </h2>
