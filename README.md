@@ -6,7 +6,7 @@
   Challenge 3: Rocketseat Website
 </h3>
  <p align="center"> applications developed during Rocketseat's Launchbase bootcamp </P>  
-<h2> <img src= "https://img.icons8.com/plasticine/2x/rocket.png" width="50px" height="50px" align="center"/> What we created? </h2>
+<h2> <img src= "https://img.icons8.com/plasticine/2x/rocket.png" width="50px" height="50px" align="center"/> What was created? </h2>
 <p> For challenge 3, we used the website created on challenge 2, and used backend to create a server, refactor the site with nunjucks
 and make some changes on the courses page.</p>
 <p> I also decided to make some design changes on about and courses pages. </p>
